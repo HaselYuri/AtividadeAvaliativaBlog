@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.main {
+  width: 95vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.cabecalho {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cabecalho h1 {
+  padding-bottom: 20px;
+  color: #233261;
+  font-size: 35px;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+.cabecalho h2 {
+  color: #515151;
+}
+
+.corpo {
+  height: 80%;
+}
+
+.timeline-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-left: 5px solid #233261;
+  margin-left: 100px;
+}
+
+.post {
+  width: 80vw;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.post::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ddd;
+  border: 3px solid #233261;
+  position: absolute;
+  margin-left: -85px;
+}
+
+.esquerda {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.esquerda img {
+  border-radius: 5px;
+}
+
+.direita {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.direita h2 {
+  color: #233261;
+  margin-bottom: 30px;
+}
+
+.direita h3 {
+  color: #afafaf;
+  width: 95%;
+  text-align: justify;
+}
+
+.direita a {
+  text-decoration: none;
+  color: #233261;
+}
