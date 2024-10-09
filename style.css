@@ -26,12 +26,20 @@ a {
   gap: 3rem;
   transition: 0.3s ease-in-out;
   margin-right: 1.5rem;
+  font-size: 25px;
 }
 .links a:hover {
   color: brown;
   transform: scale(10px);
-  font-size: 20px;
+  font-size: 30px;
 }
+
+div.links{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
 .links {
   justify-self: center;
 }
@@ -119,6 +127,7 @@ a {
 
 .esquerda img {
   border-radius: 5px;
+  width: 415px;
 }
 
 .direita {
