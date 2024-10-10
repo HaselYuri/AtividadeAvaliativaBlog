@@ -93,6 +93,7 @@ div.links{
   align-items: center;
   border-left: 5px solid #233261;
   margin-left: 100px;
+  position: relative;
 }
 
 .post {
@@ -103,6 +104,7 @@ div.links{
   margin-bottom: 15px;
   margin-top: 15px;
   border-radius: 10px;
+  position: relative;
 }
 
 .post::before {
@@ -114,7 +116,9 @@ div.links{
   background-color: #ddd;
   border: 3px solid #233261;
   position: absolute;
-  margin-left: -85px;
+  left: -25px;
+  top: 50%; 
+  transform: translateY(-50%);
 }
 
 .esquerda {
